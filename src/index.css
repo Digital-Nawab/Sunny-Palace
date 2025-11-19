@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  list-style: none;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  font-family: "Poppins", sans-serif;
+}
+.slick-next {
+  right: 10px !important;
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .navbar-light .navbar-toggler {
+    border: none !important;
+  }
+  .dropdown-menu {
+    border: none !important;
+    background: none !important;
+    padding-right: 12px !important;
+  }
+  #about {
+    background: #ffffff;
+    padding: 40px 0px 80px 0px !important;
+  }
+  .welcome-data h2 {
+    font-size: 35px !important;
+  }
+  .welcome-data p {
+    text-align: justify !important;
+  }
+  .invitation-box {
+    margin-top: 50px !important;
+  }
+  .invitation-box .right-vec {
+    right: 10px !important;
+  }
+  .contact-area::before {
+    left: calc(0px - 108px) !important;
+  }
+  .background-image {
+    background-size: contain !important;
+  }
+  .grid {
+    column-count: 1 !important;
+  }
+}
+
+#page-heading {
+  padding: 50px 0px 50px 0px;
+  background: url("assets/img/banner3.webp") center fixed;
+  position: relative !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-repeat: no-repeat !important;
+}
+
+.widget{padding: 0px!important;}
+.widget_banner {background-color: #010f1c;position: relative;padding: 20px 20px!important;}
+#wedding {
+  padding: 50px 0px 50px 0px;
+  background: url("assets/img/entertainment.webp") center fixed;
+  position: relative !important;
+  background-color: #00000099;
+  color: white;
+  background-blend-mode: overlay !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-repeat: no-repeat !important;
+}
+.sidebar .widget.widget-nav-menu {padding: 0;}
+.sidebar .widget-area .widget {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+    box-shadow: 0 0 10px 0 rgba(18,31,56,.1);
+    padding: 10px 25px 30px;
+}
+ul {margin: 0;padding: 0;margin-left: 0px!important;}
+.widget.widget-nav-menu ul li:hover, .widget.widget-nav-menu ul li.active {
+background-color: transparent;
+}
+.sidebar .widget ul>li:first-child {
+  border-top: none;
+}
+.widget.widget-nav-menu ul li {
+  margin-bottom: 10px;
+  padding: 0;
+  border: 0;
+  position: relative;
+  display: block;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.widget.widget-nav-menu ul li.active a{color: #fff;}
+.widget.widget-nav-menu ul li a {
+  display: block;
+  padding: 17px 20px 17px 20px;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 17px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  box-shadow: 0 0 10px 0 rgba(18,31,56,.1);
+  font-family: 'Cormorant', serif;
+  color:black;
+}
+
+.widget.widget.widget-nav-menu ul li a:after{
+content: "\f0da";
+font-family: "fontawesome";
+font-style: normal;
+font-weight: 700;
+position: absolute;
+top: 15px;
+right: 20px;
+font-size: 16px;
+opacity: .4;
+background-color: transparent;
+}
+
+#decoration {
+  padding: 50px 0px 50px 0px;
+  background: url("assets/img/decorationevent.webp") center fixed;
+  position: relative !important;
+  background-color: #00000099;
+  color: white;
+  background-blend-mode: overlay !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-repeat: no-repeat !important;
+}
+#exhibition {
+  padding: 50px 0px 50px 0px;
+  background: url("assets/img/exhibition.webp") center fixed;
+  position: relative !important;
+  background-color: #00000099;
+  color: white;
+  background-blend-mode: overlay !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-repeat: no-repeat !important;
+}
+#virtualEvent {
+  padding: 50px 0px 50px 0px;
+  background: url("assets/img/virtualevent.webp") center fixed;
+  position: relative !important;
+  background-color: #00000099;
+  color: white;
+  background-blend-mode: overlay !important;
+  background-size: cover !important;
+  overflow: hidden !important;
+  background-repeat: no-repeat !important;
+}
+.select.style2, .form-control.style2, .form-select.style2, textarea.style2, input.style2 {
+   padding: 10px 0 10px 10px!important;
+}
+.rsvp-form .form-group {margin-bottom: 0px!important;}
+.page-title {font-size: 20px!important;font-weight: 600;color: #f7b23f;}
+.page-content h5{color: #f7b23f;font-weight: 600;font-size: 20px;}

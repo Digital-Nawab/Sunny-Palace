@@ -1,0 +1,39 @@
+.contact-section{padding: 50px 0px;}
+
+.contact-form{background: #fff;box-shadow: 0 3px 6px rgba(0,0,0,.16);border-radius: 20px;padding: 30px 40px;}
+
+select, .form-control, .form-select, textarea, input {padding: 13px 15px 13px 15px;
+    box-shadow: 0 1px 3px 0 #cacaca;height: 45px;margin-bottom: 30px;border-radius: 10px;background: #efefef;
+}
+
+.btn-primary {color: #fff;background-color: #e66f1a;border-color: #e66f1a;}
+.btn-primary:hover {color: #fff;background-color: #e66f1a;border-color: #e66f1a;}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e66f1a;
+    border-color: #e66f1a;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(230 111 26);
+}
+
+.contact-section .content .info {
+    margin-top: 30px;
+}
+.contact-section .content .info i {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    color:#e66f1a;
+    text-align: center;
+    width: 20px;
+    position: absolute;
+}
+.contact-section .content .info h4 {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.contact-section .content .info h4 span {font-size: 13px;font-weight: 300;}
+.d-inline-block {display: inline-block!important;padding-left: 60px;}
+textarea.form-control, textarea {min-height: 100px;padding-top: 16px;padding-bottom: 17px;}

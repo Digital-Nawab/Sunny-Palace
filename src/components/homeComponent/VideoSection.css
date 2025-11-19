@@ -1,0 +1,84 @@
+.counter-section{background-color:#e66f1a;padding: 50px 0px;background-image: url('/assets/img/bg-3.jpg');background-repeat: no-repeat;background-size: cover;}
+.counter{padding: 30px 0;}
+.counter .counter-content{
+    height: 140px;
+    width: 140px;
+    color: #303030;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    position: relative;
+    transition: all 0.3s;
+}
+.counter .counter-content:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.counter .counter-content:before,
+.counter .counter-content:after{
+    content: '';
+    height: 180px;
+    width: 180px;
+    border: 3px solid #e66f1a;
+    border-left: none;
+    border-right: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(10deg);
+    transition: all 0.3s;
+}
+ 
+.counter .counter-content:after{
+    border: 10px solid #e66f1a;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.counter .counter-content:hover:before{
+    transform: translateX(-50%) translateY(-50%) rotate(190deg);
+    box-shadow: 0 0 20px -5px rgba(0,0,0,0.9);
+}
+.counter .counter-content:hover:after{transform: translateX(-50%) translateY(-50%) rotate(-225deg);}
+.counter .counter-value{
+    font-size: 35px;
+    font-weight: 600;
+}
+.counter .title{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+.counter-section h6:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f046";
+    color: #f9c978;
+    font-size: 16px;
+}
+.accordion-header{
+    background-color: #f9bf63;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 #cacaca;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    border: none;
+    background: #f9bf63;
+    color:#fff;
+    font-size: 1.5rem;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
